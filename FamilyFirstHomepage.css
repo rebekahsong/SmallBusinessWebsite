@@ -1,0 +1,191 @@
+/* CSS for FamilyFirstHomepage.html */
+
+/* sections ***************************************************************************************************/
+body {
+  padding-top: 70px;
+  background: #25232D;
+  position: relative;
+}
+.jumbotron{
+    position: relative;
+    padding-bottom: 60px;
+    padding-top: 70px;
+}
+.jumbotron .TextOnTop{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 33%;
+    text-align: center;
+}
+.reviews {
+  padding-top: 90px;
+  padding-bottom: 10px;
+}
+.jumbotron {
+  background: #25232D;
+  color: #F2E9E4;
+  text-align: center;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+     -o-animation: fadein 4s; /* Opera < 12.1 */
+        animation: fadein 4s;
+}
+.meetthem {
+  background: #999CAA;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+.RecommendedServices {
+  background: #999CAA;
+  padding-top: 0px;
+  padding-bottom: 80px;
+}
+.contactthem {
+  background: #3B3C42;
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+.footer-copyright {
+  font-size: 12px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #A36400;
+}
+/* sections ***************************************************************************************************/
+
+/* images ***************************************************************************************************/
+
+.ImgCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* images ***************************************************************************************************/
+
+/* buttons ***************************************************************************************************/
+.MainButton {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #A36400;
+  color: #F2E9E4;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.MainButton:hover {
+  background: #875300;
+  text-decoration: none;
+  color: #F2E9E4;
+  font-style: italic;
+}
+.CopyButtons {
+  text-align: center;
+  padding-bottom: 20px;
+}
+/* buttons ***************************************************************************************************/
+
+/* navbar ***************************************************************************************************/
+.navbar-inverse .navbar-nav li a:hover {
+  color: white;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background: #25232D;
+  color: #9d9d9d;
+}
+.navbar-inverse {
+  border: 0;
+}
+.navbar {
+  background: #25232D;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar-fixed-top .navbar-nav li a {
+  color: #9d9d9d;
+  background: #25232D;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color:#9d9d9d;
+}
+.logo {
+  background: #25232D;
+  font-size: 20px;
+  position: relative;
+  bottom: 20px;
+}
+.navbar-brand {
+  font-style: italic;
+}
+.navbar-inverse .navbar-brand {
+    color: #F2E9E4;
+}
+.navbar-brand:hover {
+  text-decoration: none;
+  color: #F2E9E4;
+}
+/* navbar ***************************************************************************************************/
+
+/* text ***************************************************************************************************/
+h1, p, a, h4, h3, h5, h2  {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+h2{
+  color: #F2E9E4;
+  font-size: 16px;
+  font-style: italic;
+  padding-top: 70px;
+}
+h4{
+  color: #A8A2AA;
+  font-style: italic;
+  font-size: 16px;
+}
+h3 {
+  color: #5B5D66;
+  font-size: 16px;
+}
+h5{
+  color: #3B3C42;
+  font-size: 13px;
+}
+.darkpurple{
+  color: #25232D;
+}
+.carousel-caption {
+  font-size: 14px;
+  font-style: italic;
+  text-shadow: none;
+}
+/* text ***************************************************************************************************/
+
+/* other ***************************************************************************************************/
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* other ***************************************************************************************************/
